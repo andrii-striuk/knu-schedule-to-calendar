@@ -1,0 +1,35 @@
+{
+  "manifest_version": 3,
+  "name": "KNU Schedule to Calendar",
+  "version": "1.0",
+  "description": "Імпорт розкладу з asu.knu.edu.ua в Google Calendar",
+  "icons": {
+    "16": "icon16.png",
+    "32": "icon32.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon16.png",
+      "32": "icon32.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  },
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "identity"
+  ],
+  "host_permissions": [
+    "https://asu.knu.edu.ua/*"
+  ],
+  "oauth2": {
+    "client_id": "476729153903-7juebk9ki214hortls8891lpv3kbomu8.apps.googleusercontent.com",
+    "scopes": [
+      "https://www.googleapis.com/auth/calendar.events"
+    ]
+  }
+}

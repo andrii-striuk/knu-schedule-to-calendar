@@ -27,7 +27,7 @@
     "https://asu.knu.edu.ua/*"
   ],
   "oauth2": {
-    "client_id": "476729153903-7juebk9ki214hortls8891lpv3kbomu8.apps.googleusercontent.com",
+    "client_id": "476729153903-vn9fq6vc21rfrdnel4lbrgehr7sahab2.apps.googleusercontent.com",
     "scopes": [
       "https://www.googleapis.com/auth/calendar.events"
     ]
